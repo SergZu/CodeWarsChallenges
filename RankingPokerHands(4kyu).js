@@ -1,4 +1,5 @@
-// 4 kyu Ranking Poker Hands 
+// Ranking Poker Hands - www.codewars.com/kata/5739174624fc28e188000465
+
 var Result = { "win": 1, "loss": 2, "tie": 3 }
 
 function PokerHand(hand) {
