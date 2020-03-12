@@ -8,18 +8,18 @@ class Primes {
     
     while (true) { 
       if ( isPrimeNumber(currentNumber, primeList) ) {
-    primeList.push(currentNumber)
-    yield currentNumber
-    }
-    currentNumber += 2      
+    	primeList.push(currentNumber)
+    	yield currentNumber
+    	}
+      currentNumber += 2      
     }
   }
 }
 
 const isPrimeNumber = (numberToCheck, primeList) => {
 	for (let j of primeList) {
-    if (numberToCheck % j === 0) return false;
-    if (j > Math.sqrt(numberToCheck)) return true
-  }
-  return true;
-};
+    	  if (numberToCheck % j === 0) return false;
+          if (j > Math.sqrt(numberToCheck)) return true
+ 	 }
+  	return true;
+       };
